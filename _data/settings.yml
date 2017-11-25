@@ -1,0 +1,23 @@
+title:  Rousseau
+tagline:  François
+
+# Authors documented under _data
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+
+#google-ID: 'UA-80213386-1'
+
+menu:
+- {name: 'About', path: 'menu', url: 'about.html'}
+- {name: 'Research', path: 'menu', url: 'research.html'}
+- {name: 'Teaching', path: 'menu', url: 'teaching.html'}
+#- {name: 'Writing', path: 'menu', url: 'writing.html'}
+#- {name: 'Contact', path: 'menu', url: 'contact.html'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
+social:
+- {icon: 'github', link: 'https://www.github.com/rousseau'}
+- {icon: 'linkedin', link: 'https://www.linkedin.com/in/françois-rousseau-b6339b7b/'}
+- {icon: 'envelope', link: 'mailto:rousseau.f@gmail.com'}
