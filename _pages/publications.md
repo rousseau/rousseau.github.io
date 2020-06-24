@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+{% include base_path %}
+
 Publication list (mostly including pdf versions): [HAL](https://hal-imt-atlantique.archives-ouvertes.fr/IMTA_ITI/search/index/?q=%2A&authIdHal_s=francois-rousseau&sort=producedDate_tdate+desc)
 
 
