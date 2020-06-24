@@ -13,6 +13,7 @@ Publication list (mostly including pdf versions): [HAL](https://hal-imt-atlantiq
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+<!-- {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+ -->
