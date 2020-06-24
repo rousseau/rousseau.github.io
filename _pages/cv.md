@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Approximately up-to-date CV in pdf](/files/CV_rousseau.pdf)
+
 Education
 ======
 * HDR, Image Analysis Methods for Brain Computational Anatomy, University of Strasborug, 2014
