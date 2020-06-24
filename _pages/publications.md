@@ -7,6 +7,8 @@ author_profile: true
 
 Publication list (mostly including pdf versions): [HAL](https://hal-imt-atlantique.archives-ouvertes.fr/IMTA_ITI/search/index/?q=%2A&authIdHal_s=francois-rousseau&sort=producedDate_tdate+desc)
 
+You can also find my articles on my [Google Scholar profile](https://scholar.google.fr/citations?user=St-2ZOIAAAAJ&hl=fr&oi=ao).
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
