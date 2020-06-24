@@ -11,23 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* HDR, Image Analysis Methods for Brain Computational Anatomy, University of Strasborug, 2014
+* Ph.D in Signal and Image Processing, University of Rennes 1, 2003
+* M.S. in Instrumentation and Control for Vision Systems, University of Rouen, 2000
+* Engineer in Applied Mathematics, INSA Rouen, 2000
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Since 2015: Professor at IMT Atlantique, Brest, France
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
-Skills
+* 2006-2015: Research Scientist, CNRS, Strasbourg, France
+
+* 2005-2006: Research and Teaching Assistant, University of Strasbourg, France
+
+* 2004-2005: Post-doctoral Fellow, UCSF, San Francisco, USA
+
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
@@ -56,4 +56,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
