@@ -20,7 +20,7 @@ Open-source Rust tools for fetal brain MRI (macOS and Linux):
 * [gyroxide](https://github.com/rousseau/gyroxide): GPU simulation of cortical folding by tangential growth
 * [guioxide](https://github.com/rousseau/guioxide): graphical interface to follow a subject through the pipeline, from a BIDS dataset to the simulation
 
-Team code: [github.com/gis-beachild](https://github.com/orgs/gis-beachild/repositories)
+Team code: [github.com/gis-beachild](https://github.com/gis-beachild)
 
 Team
 ------
