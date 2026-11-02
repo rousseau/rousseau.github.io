@@ -13,12 +13,14 @@ I am a professor at [IMT Atlantique](https://www.imt-atlantique.fr) and a resear
 Software
 ------
 
-With my team, I develop *oxide*, an open-source suite written in Rust for fetal brain MRI, from the acquired data to the simulation of cortical folding (macOS and Linux; documentation in French).
+Open-source Rust tools for fetal brain MRI (macOS and Linux):
 
 * [medoxide](https://github.com/rousseau/medoxide): fetal brain extraction, slice-to-volume reconstruction and tissue segmentation
 * [surfoxide](https://github.com/rousseau/surfoxide): white and pial cortical surfaces, mesh quality control and cortical measures
 * [gyroxide](https://github.com/rousseau/gyroxide): GPU simulation of cortical folding by tangential growth
 * [guioxide](https://github.com/rousseau/guioxide): graphical interface to follow a subject through the pipeline, from a BIDS dataset to the simulation
+
+Team code: [github.com/gis-beachild](https://github.com/gis-beachild)
 
 Team
 ------
