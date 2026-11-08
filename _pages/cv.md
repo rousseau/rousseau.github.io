@@ -70,16 +70,16 @@ Supervision
 * Yue Cheng (2019–2023), postdoc at APHP, Paris
 * Simon Benaïchouche (2019–2023), postdoc at INRIA, Rennes
 * Xiaoyu Wang (2017–2021), postdoc at Neurospin, Saclay
-* Juliette Ropars (2015–2021), medical doctor, Brest
-* Marc Garetier (2016–2020), medical doctor, Brest
-* Antoine Legouhy (2016–2020), postdoc at Institut Pasteur, Paris
+* Juliette Ropars (2015–2021), paediatric neurologist at CHU Brest
+* Marc Garetier (2016–2020), radiologist at HIA Clermont-Tonnerre, Brest
+* Antoine Legouhy (2016–2020), Centre for Medical Image Computing, University College London
 * Karim Makki (2016–2019), postdoc at Institut Pascal
 * Carlos Tor Diez (2016–2019), data scientist at Quibim, Madrid
 * Chi-Hieu Pham (2015–2018), assistant professor at UBO, Brest
 * Lucas Soustelle (2014–2018), research engineer at CRMBM, Marseille
-* Julien Pontabry (2010–2013), research engineer at ICube, Strasbourg
+* Julien Pontabry (2010–2013), IGBMC, Strasbourg
 * Mériam Koob (2008–2012), medical doctor at CHUV, Lausanne
-* Benoit Caldairou (2008–2012), computer science teacher at CEGEP Édouard-Montpetit, Montreal
+* Benoit Caldairou (2008–2012), Montreal Neurological Institute, McGill University
 * Swati Sharma (2007–2011), researcher at Microsoft Research
 
 **Former postdocs and engineers**
