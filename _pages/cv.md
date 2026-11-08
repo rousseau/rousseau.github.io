@@ -64,23 +64,23 @@ Supervision
 * Emma Lhermitte (2022–2026), Steven Jia (2022–2026)
 * Zakaria Jarraya (2021–2025), Anne Kerachni (2021–2025), Zhengyang Lan (2021–2025)
 * Sarah Reynaud (2021–2025), postdoc at LOV, Villefranche-sur-Mer
-* Chloé Mercier (2021–2025), postdoc at LTSI, Rennes
+* Chloé Mercier (2021–2025)
 * Claire Scavinner (2020–2024), postdoc at LTSI, Rennes
 * Nathan Decaux (2020–2024), postdoc at IRISA, Rennes
-* Yue Cheng (2019–2023), postdoc at APHP, Paris
+* Yue Cheng (2019–2023), postdoc at IMRB (Inserm), Créteil
 * Simon Benaïchouche (2019–2023), postdoc at INRIA, Rennes
 * Xiaoyu Wang (2017–2021), postdoc at Neurospin, Saclay
-* Juliette Ropars (2015–2021), paediatric neurologist at CHU Brest
+* Juliette Ropars (2015–2021), associate professor and paediatric neurologist at CHU Brest
 * Marc Garetier (2016–2020), radiologist, Brest area
 * Antoine Legouhy (2016–2020), postdoc at Institut Pasteur, Paris
 * Karim Makki (2016–2019), postdoc at Institut Pascal
-* Carlos Tor Diez (2016–2019), data scientist at Quibim, Madrid
+* Carlos Tor Diez (2016–2019), data scientist at Quibim, Valencia
 * Chi-Hieu Pham (2015–2018), assistant professor at UBO, Brest
 * Lucas Soustelle (2014–2018), research engineer at CRMBM, Marseille
 * Julien Pontabry (2010–2013), research engineer at ICube, Strasbourg
 * Mériam Koob (2008–2012), medical doctor at CHUV, Lausanne
 * Benoit Caldairou (2008–2012), computer science teacher at CEGEP Édouard-Montpetit, Montreal
-* Swati Sharma (2007–2011), researcher at Microsoft Research
+* Swati Sharma (2007–2011), principal researcher at Microsoft
 
 **Former postdocs and engineers**
 
