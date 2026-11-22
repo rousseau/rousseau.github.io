@@ -236,8 +236,7 @@ const S = [
   see:["La gare de Rennes, pour le rail qui a fait vivre Maurice","La rue d'Oradour-sur-Glane, où vivait Maurice en 1961"],
   q:"En quelle année Maurice et Eugénie se sont-ils mariés à Rouen ?", hint:"Huit ans après la disparition d'Auguste.", ans:["1924"], show:"1924 (le 23 août)"}
 ];
-const BONUS = {title:"Fougères : la prochaine enquête", text:"Jean Bigot, votre père, est né à Fougères le 29 décembre 1926. Sa branche est la seule qui reste entièrement à découvrir. Son acte de naissance, à demander à la mairie de Fougères, ouvrira la prochaine enquête."};
-const PLACES = [["Le Croisic","croisic",-58,4],["Theix","theix",6,-4],["Surzur","surzur",6,10],["Malansac","malansac",6,4],["Lorient","lorient",6,-6],["Maël-Pestivien","maelpestivien",6,12],["Pencran","pencran",6,4],["Lannilis","lannilis",6,4],["Plabennec","plabennec",6,4],["Saint-Brieuc","stbrieuc",6,4],["Fougères (bonus)","fougeres",-40,-8]];
+const PLACES = [["Le Croisic","croisic",-58,4],["Theix","theix",6,-4],["Surzur","surzur",6,10],["Malansac","malansac",6,4],["Lorient","lorient",6,-6],["Maël-Pestivien","maelpestivien",6,12],["Pencran","pencran",6,4],["Lannilis","lannilis",6,4],["Plabennec","plabennec",6,4],["Saint-Brieuc","stbrieuc",6,4]];
 
 let state = {done:{}, cur:1};
 try { const s = JSON.parse(localStorage.getItem('jeu-gens-de-mer')||'null'); if (s) state = s; } catch(e) {}
@@ -263,11 +262,8 @@ function drawLetters(){
 function drawLists(){
   const li = s => `<li data-id="${s.id}" class="${state.done[s.id]?'done':''}"><b>${esc(s.title)}</b>, ${esc(s.where)}${state.done[s.id]?' ✓':''}</li>`;
   document.getElementById('list1').innerHTML = S.filter(s=>s.part===1).map(li).join('');
-  document.getElementById('list2').innerHTML = S.filter(s=>s.part===2).map(li).join('') + `<li data-id="bonus"><b>Bonus : Fougères</b>, la piste encore ouverte</li>`;
-  document.querySelectorAll('.part li').forEach(el => el.onclick = () => { if (el.dataset.id==='bonus') showBonus(); else select(+el.dataset.id); document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'nearest'}); });
-}
-function showBonus(){
-  document.getElementById('panel').innerHTML = `<span class="tag">Piste bonus</span><h2>${esc(BONUS.title)}</h2><p>${esc(BONUS.text)}</p><div class="nav"><button type="button" onclick="select(11)">Revenir à l'étape 11</button></div>`;
+  document.getElementById('list2').innerHTML = S.filter(s=>s.part===2).map(li).join('');
+  document.querySelectorAll('.part li').forEach(el => el.onclick = () => { select(+el.dataset.id); document.getElementById('panel').scrollIntoView({behavior:'smooth',block:'nearest'}); });
 }
 function select(id){
   state.cur = id; save();
@@ -285,7 +281,7 @@ function select(id){
       <div class="row" style="margin-top:8px"><button type="button" id="hint">Un indice</button><button type="button" id="giveup">Voir la réponse</button></div>
       <p class="msg ${done?'ok':''}" id="msg">${done?`Trouvé : ${esc(s.show)}. Lettre gagnée : ${s.letter}`:''}</p>
     </div>
-    <div class="nav"><button type="button" id="prev" ${id===1?'disabled':''}>Étape précédente</button><button type="button" id="next">${id===11?'La piste bonus':'Étape suivante'}</button></div>`;
+    <div class="nav"><button type="button" id="prev" ${id===1?'disabled':''}>Étape précédente</button><button type="button" id="next" ${id===11?'disabled':''}>Étape suivante</button></div>`;
   const msg = document.getElementById('msg');
   const win = () => { state.done[id] = true; save(); msg.className='msg ok'; msg.textContent = `Bravo : ${s.show}. Lettre gagnée : ${s.letter}`; refresh(); };
   const check = () => { const v = norm(document.getElementById('ans').value); if (!v) return; if (s.ans.some(a => v.includes(norm(a)))) win(); else { msg.className='msg ko'; msg.textContent = "Pas tout à fait. Relisez l'histoire de l'étape, ou demandez un indice."; } };
@@ -293,7 +289,7 @@ function select(id){
   document.getElementById('hint').onclick = () => { msg.className='msg ko'; msg.textContent = 'Indice : ' + s.hint; };
   document.getElementById('giveup').onclick = () => { msg.className='msg ko'; msg.textContent = `La réponse : ${s.show}. Tapez-la pour gagner la lettre.`; };
   document.getElementById('prev').onclick = () => select(id-1);
-  document.getElementById('next').onclick = () => id===11 ? showBonus() : select(id+1);
+  document.getElementById('next').onclick = () => { if (id<11) select(id+1); };
   drawMarkers();
 }
 function refresh(){ drawMarkers(); drawLetters(); drawLists(); }
