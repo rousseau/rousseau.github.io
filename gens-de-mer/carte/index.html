@@ -103,7 +103,7 @@ function draw(){
 function panel(by){
   const P = document.getElementById("panel");
   if (!sel || !by[sel]) {
-    const tot = DATA.people.filter(visible).length;
+    const tot = DATA.people.filter(p => visible(p) && p.k !== 7).length;
     const top = Object.entries(by).sort((a,b)=>b[1].length-a[1].length).slice(0,5).map(([c,l])=>esc(c)+" ("+l.length+")").join(", ");
     P.innerHTML = '<h2>'+tot+' ancêtres</h2><p class="meta">nés avant '+maxY+', dans les lignées choisies</p><p>Les lieux les plus présents : '+top+'.</p><p>Touchez un cercle sur la carte pour voir la liste des ancêtres liés à ce lieu. Le curseur permet de remonter le temps : en le faisant glisser vers 1550, il ne reste que les paludiers de Batz et les familles de Séné.</p>';
     return;
