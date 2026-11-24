@@ -95,9 +95,14 @@ footer a,.panel a{color:var(--sail)}
 @media (prefers-reduced-motion:no-preference){.letter{transition:color .3s,border-color .3s}}
 @media print{.panel{position:static}.mystery button{display:none}}
 </style>
-</head>
+<style>.top{position:sticky;top:0;z-index:5;background:rgba(246,241,228,.95);border-bottom:1px solid #d9cfb6;backdrop-filter:blur(4px)}
+.top nav{max-width:1100px;margin:0 auto;display:flex;gap:4px 16px;flex-wrap:wrap;align-items:center;padding:8px 18px;font-size:1rem}
+.top nav a{text-decoration:none;color:#23303b;padding:2px 0;border-bottom:2px solid transparent}
+.top nav a[aria-current]{border-bottom-color:#1b4a6b;font-weight:600}
+.top nav .home{font-weight:700;color:#1b4a6b;margin-right:auto}
+.top nav{font-family:"Crimson Text",Georgia,serif;line-height:1.55}.top nav a{font-size:1rem}body{margin:0}</style><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet"></head>
 <body>
-<div style="background:#f6f1e4;border-bottom:1px solid #d9cfb6;padding:6px 18px;font-family:'Crimson Text',Georgia,serif;font-size:16px"><a href="../" style="color:#1b4a6b;font-weight:700;text-decoration:none">← Les gens de mer</a> · <a href="../carnet/" style="color:#1b4a6b">le carnet</a> · <a href="../jeu/" style="color:#1b4a6b">le jeu</a> · <a href="../carte/" style="color:#1b4a6b">la carte</a> · <a href="../roue/" style="color:#1b4a6b">la roue</a></div>
+<div class="top"><nav aria-label="Rubriques du site"><a class="home" href="../">Les gens de mer</a><a href="../carnet/">Le carnet</a><a href="../jeu/" aria-current="page">Le jeu de piste</a><a href="../carte/">La carte</a><a href="../roue/">La roue</a><a href="../sources/">Sources</a></nav></div>
 <div class="wrap">
 <header>
   <h1>L'enquête continue : le jeu de piste des gens de mer</h1>
